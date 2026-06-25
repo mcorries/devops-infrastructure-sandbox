@@ -33,3 +33,17 @@ Developed and maintained by Kevin Rutenberg (Continuous R&D since 2021).
 The persistent WSL2 core environment currently orchestrates:
 * **CI/CD Engineering:** Jenkins automation pipelines with full Git/GitHub source code triggers.
 * **Management & Visualization:** Portainer dashboard tracking and specialized Kubernetes v7 microservice stacks (Kong proxy, Web client, core API servers).
+
+* **Container Core & Runtime:** Powered by Docker Engine (v27.x) and containerd (v1.7.x) layer abstractions.
+* **Orchestration & UI Control:** Microservice-managed Kubernetes Dashboard v7.x running parallel Kong API Gateways on a local KinD cluster (Kubernetes v1.34+).
+* **Automation Server:** Clean Jenkins LTS (v2.555+) instance operating Java 21 container runners.
+
+### 🐳 Modern DevOps Stack Integrations
+The persistent WSL2 core environment currently orchestrates:
+
+* **Automation & CI/CD Engine:** Jenkins LTS (v2.541.x+) instances running Java 21 container runners, utilizing secure **ngrok reverse-proxy tunnels** to expose local webhooks to internet ingress, enabling automated pipeline execution triggered by external GitHub SCM events.
+* **Container Core & Runtimes:** High-performance local environments powered natively by Docker Engine (v27.x) and containerd (v1.7.x) system layer abstractions.
+* **Orchestration & UI Observability:** A multi-node local KinD cluster (Kubernetes v1.34+) integrated with Portainer and the modernized microservice-managed Kubernetes Dashboard v7.x running parallel Kong API Gateways.
+
+
+
